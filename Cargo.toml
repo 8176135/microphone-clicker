@@ -1,0 +1,22 @@
+[package]
+name = "microphone_clicker"
+version = "0.1.0"
+authors = ["8176135 <elsecaller@8176135.xyz>"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cpal = { version = "*", features = ["asio"] }
+once_cell = "*"
+enigo = "*"
+winit = "*"
+pixels = "*"
+pitch-detection = "*"
+num-complex = "*"
+#iced = { version = "*", features = ["canvas", "tokio", "debug"] }
+#iced_native = "*"
+#iced_futures = "*"
+#rand = "*"
+#tokio = "0.3.6"
+#crossbeam-utils = { version = "*", default-features = false }
